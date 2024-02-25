@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:slnt,wght@-10..0,100..900&display=swap');
+.Recomendation_Section .Recommendation_Section_Heading{
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #1C2751;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    text-align: start;
+    font-family: "Inria Sans", sans-serif;
+    font-weight: 800;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.Recomendation_Section .Recommendation_Section_Container{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+.Recomendation_Section .Recommendation_Section_Container .Recommendation_Card{
+    background: #ffffff;
+    width: 20rem;
+    border-radius: 1.25rem;
+    /* overflow: hidden  ; */
+    
+}
+.Recomendation_Section .Recommendation_Section_Container .Recommendation_Card .Recommendation_Card_Icon img{
+    border-radius: 1.25rem;
+}
+.Recomendation_Section .Recommendation_Section_Container .Recommendation_Card .Recommendation_Card_Description{
+    font-family: "Inria Sans", sans-serif;
+    padding: 10px 20px;
+    font-weight: 700;
+}
+.Recomendation_Section .Recommendation_Section_Container .Recommendation_Card .Recommendation_Card_Description .Job_Location{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+.Recomendation_Section .Recommendation_Section_Container .Recommendation_Card .Recommendation_Card_Description .Job_Location img{
+    margin-right: 5px;
+}
+.Recomendation_Section .Recommendation_Section_Container .Recommendation_Card .Recommendation_Card_Description .Job_Location span{
+    color: #1C2751;
+}
+.Recommendation_Section_ViewAll{
+    border: 2px solid #1C2751;
+    border-radius: 2rem;
+    padding: 5px 20px;
+    width: 8rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-left: auto;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.SeprationLine{
+    width: 100vw;
+    height: 2px;
+    display: flex;
+    content: "";
+    background: #000;
+    margin: 3rem 0;
+}

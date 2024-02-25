@@ -1,0 +1,99 @@
+.Work_Section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.Work_Section .Work_Section_Container{
+    background: #1C2751;
+    padding: 20px;
+    border-radius: 20px;
+    width: 18rem;
+    height: 18rem;
+}
+.Work_Section .Work_Section_Container .Work_Section_Heading{
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: start;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.Work_Section .Work_Section_Container .Work_text{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    /* margin: 10px 0; */
+    height:80%;
+    flex-direction: column;
+}
+.Work_Section .Work_Section_Container .Work_text .Work_Section_Container_Text{
+    font-size: 0.9rem;
+    width: 100%;
+    height: 3rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #fff ;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    text-align: start;
+}
+.Work_Section .Work_Section_Container .Work_text .Work_Section_Container_Text .Number{
+    font-size: 1rem;
+    color: #1C2751;
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    text-align: center;
+    margin-right: 10px;
+    /* margin: 0 20px; */
+}
+.Work_Section .Work_Section_Container .Work_text .Work_Section_Container_Text .Description{
+    width: 100%;
+
+}
+
+.Work_Section .Arrow_Conatiner{
+    margin: 10px;
+}
+.Get_Help_Container{
+    width: 80vw;
+    margin: 40px auto;
+}
+.Get_Help_Container .Get_Help_Heading{
+    font-size: 2rem;
+    color: #1C2751;
+    text-align: start;
+    /* margin-bottom: 1rem; */
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.Get_Help_Container .Get_Help_Categ{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 10px 2rem;
+}
+.Get_Help_Container .Get_Help_Categ .Categ{
+    font-size: 0.9rem;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+    background: #1C2751;
+    color: #fff;
+    border-radius: 2rem;
+    width: fit-content;
+    padding: 5px 10px;
+}
+.SeeAll{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #1C2751;
+    text-align: start;
+    margin-top: 20px;
+}

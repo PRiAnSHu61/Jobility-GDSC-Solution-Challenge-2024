@@ -1,0 +1,97 @@
+.HeaderContainer {
+  width: 100vw;
+  height: 40vh;
+  overflow: hidden;
+  position: relative;
+}
+.HeaderContainer .background_header img {
+  height: 100%;
+  width: 100vw;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  opacity: 50%;
+}
+.HeaderContainer .Header_text {
+    font-size: 3.5rem;
+    color: #1c2751;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: -10;
+    text-align: start;
+    /* backdrop-filter: blur(3px) brightness(0.7); */
+    /* background: #ffffff;
+    background-clip:text ;
+    -webkit-text-fill-color: transparent; */
+    color: #000000;
+    text-shadow: #1c2751;
+    width: 100vw;
+    height: 100%;
+    font-weight: 800;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+}
+.HeaderContainer .Header_text span{
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+
+.Header_Feature .Header_Feature_Heading{
+    font-size: 2rem;
+    color: #1c2751;
+    font-weight: 800;
+    text-align: center;
+    margin: 2rem 0;
+    text-align: start;
+    margin-left: 10px;
+}
+.Header_Feature .Sepration{
+    content: " ";
+    width: 100vw;
+    display: flex;
+    height: 2px;
+    background:#1c2751;
+}
+.Header_Feature .Header_Feature_Container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 1.25rem;
+    flex:2 2;
+}
+.Header_Feature .Header_Feature_Container .Feature_Card{
+    width: 20vw;
+    margin-top: 20px;
+}
+.Header_Feature .Header_Feature_Container .Feature_Card .Feature_Card_Title{
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #195A8C;
+}
+.MoreCateg{
+    text-align: end;
+    margin: 2rem 20px;
+}
+.MoreCateg span{
+    font-size: 1rem;
+    color: #1c2751;
+    font-weight: 800;
+    cursor: pointer;
+    border: 2px solid #1c2751;
+    border-radius: 2.25rem;
+    padding: 10px 20px;
+}
+.SeparationLine{
+    width: 100vw;
+    height: 3vh;
+    content: "";
+    margin-top: 2rem;
+    background: lightgray;
+}

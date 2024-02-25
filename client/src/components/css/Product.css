@@ -1,0 +1,96 @@
+.Product_Description{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+.Product_Description .Close{
+    font-size: 2rem;
+    font-weight: 300;
+    color: #fff;
+    background: #1C2751;
+    border-radius: 10px;
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    text-align: center;
+    right: 10px;
+}
+
+.Product_Description .Section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Product_Description .Section1 .Product_Contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 30%;
+}
+.Product_Description .Section1 .Product_Contact .Product_Name,
+.Product_Description .Section1 .Product_Contact .Product_Contact{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #fff;
+    background: #1C2751;
+    width: 10vw;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+.Product_Description .Section1 .Product_Contact .Rating{
+    margin: 10px 0;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.Product_Description .Section2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Product_Description .Section2 .Location,
+.Product_Description .Section2 .Price,
+.Product_Description .Section2 .JobType{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color: #1C2751;
+    font-weight: 600;
+}
+.ChatBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #9d9d9d;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.Product_Description .Section3{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    margin: 20px 40px;
+
+}
+.Product_Description .Section3 .Description{
+    font-size: 1.5rem;
+    text-align: start;
+    color: #1C2751;
+    font-weight: 600;
+}
+.Product_Description .Section3 .ExplainedDescription{
+    font-size: 0.8rem;
+    text-align: start;
+    color: #1C2751;
+    line-height: 1.25rem;
+    font-weight: 400;
+}
+
