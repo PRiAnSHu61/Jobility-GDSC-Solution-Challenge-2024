@@ -1,0 +1,113 @@
+.Login_Modal{
+    overflow: hidden;
+    border-radius: 10px;
+    background: #fff;
+    width: 60vw;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.Login_Modal .Login_Left_Section{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Login_Modal .Login_Left_Section span{
+    font-weight: 700;
+    color: #1C2751;
+    font-size: 2rem;
+}
+.Login_Modal .Login_Right_Section{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #1C2751;
+    position: relative;
+}
+.Login_Modal .Login_Right_Section .Heading{
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 20px;
+}
+.Login_Modal .Login_Right_Section .SubHeading{
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    top: 60px;
+    left: 22px;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+.Login_Modal .Login_Right_Section .SubHeading span{
+    text-decoration: underline;
+}
+.Login_Modal .Login_Right_Section .LoginUsing .Phone span,
+.Login_Modal .Login_Right_Section .LoginUsing .Google span{
+    color: #1C2751;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    margin-left: 10px;
+}
+.Login_Modal .Login_Right_Section .LoginUsing .Phone img,
+.Login_Modal .Login_Right_Section .LoginUsing .Google img{
+    width: 2rem;
+    height: 2rem;
+}
+.Login_Modal .Login_Right_Section .LoginUsing .Phone,
+.Login_Modal .Login_Right_Section .LoginUsing .Google{
+    background: #fff;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 5px 10px;
+    
+}
+.Login_Modal .Login_Right_Section .LoginUsing .Sepration {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.Login_Modal .Login_Right_Section .LoginUsing .Sepration span:nth-child(1),
+.Login_Modal .Login_Right_Section .LoginUsing .Sepration span:nth-child(3) {
+    content: " ";
+    display: flex;
+    height: 1px;
+    width: 40%;
+    background: #fff;
+}
+.Login_Modal .Login_Right_Section .LoginUsing .Sepration span:nth-child(2) {
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 0 10px;
+}
+.Login_Modal .Login_Right_Section .LoginUsingIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+.LastLine{
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin: 20px 0;
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    text-align: start;
+}

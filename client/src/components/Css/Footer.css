@@ -1,0 +1,58 @@
+.FooterSection{
+    width: 100vw;
+    background: #1c275117;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Heading{
+    font-size: 2rem;
+    text-decoration: underline;
+    font-weight: 700;
+    color: #1C2751;
+    margin: 20px 0;
+}
+.DiscoverSection,.CompanySection{
+    text-align: start;
+    width: 25vw;
+}
+.Links{
+    display: flex;
+    align-items: center;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin: 20px 0;
+}
+.Link{
+    font-size: 1.2rem;
+    margin: 5px 0;
+    font-weight: 600;
+}
+.SocialSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 25vw;
+    flex-direction: column;
+}
+.SocialSection .FollowUS,
+.SocialSection .TagLine{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1C2751;
+    margin: 10px 0;
+}
+.SocialLinks{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.SocialLink{
+    border-right: 1px solid #1C2751;
+    padding: 0 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
